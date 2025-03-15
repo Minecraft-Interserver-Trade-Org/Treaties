@@ -1,7 +1,7 @@
 # M.I.T.O. Treaties
 This repository contains all present and past treaties, agreements, and rules.
 
-## File structure
+## Repository structure
 Files under the `de-jure/` directory represent documents that are currently valid.
 
 Files under the `repealed/` directory represent documents that were valid in the past and that have been repealed.
@@ -26,12 +26,12 @@ The title of the Pull Request hsall also detail what document is being altered:
 - Ammend TEPs shall include the number of the TEP to be ammended using the format `TEP-<Number>`
 - Repeal TEPs shall include the number of the TEP to be repealed using the format `TEP-<Number>`
 
-#### Examples
+##### Examples
 - TEP: Propose "Minecraft Agreement on Tariffs and Trade"
 - TEP: Ammend TEP-1
 - TEP: Repeal TEP-1
 
-### Body
+#### Body
 The body of the Pull Request may include the number of a previous TEP on which the current one depends. This number, if present, shall be placed following the `Depends on: ` prefix using the format `TEP-<Number>`.
 
 #### Example
